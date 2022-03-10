@@ -1,0 +1,560 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* ezp_rehlacar
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-26 05:25+0000\n"
+"PO-Revision-Date: 2021-09-26 05:25+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields.selection,name:ezp_rehlacar.selection__sale_order__status_of_trip__2
+msgid "Accepted"
+msgstr "وافقت"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_purchase_order__airport_additional
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_sale_order__airport_additional
+msgid "Airport Additional"
+msgstr "مطار إضافي"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_sale_order__additional_airport
+msgid "AirportAdditionalFees"
+msgstr "رسوم المطار الإضافية"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount_report__all_lines
+msgid "All Lines"
+msgstr "كل السطور"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_purchase_order__application_fee
+msgid "Application Fees"
+msgstr "رسوم التقديم"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_account_move_line__basic_value
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_purchase_order_line__basic_value
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_sale_order_line__basic_value
+#: model_terms:ir.ui.view,arch_db:ezp_rehlacar.purchase_rehla_inherit
+#: model_terms:ir.ui.view,arch_db:ezp_rehlacar.view_sale_order_rehla_inherit
+msgid "Basic"
+msgstr "أساسي"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_purchase_order__basic_fire
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_sale_order__basic_fire
+msgid "Basic Fire"
+msgstr "راتب اساسي"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_purchase_order__bonus
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_sale_order__bonus
+msgid "Bonus"
+msgstr "علاوة"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields.selection,name:ezp_rehlacar.selection__sale_order__status_of_trip__4
+msgid "Canceled"
+msgstr "ألغيت"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_sale_order__car_categ
+msgid "Car Category"
+msgstr "فئة السيارة"
+
+#. module: ezp_rehlacar
+#: model_terms:ir.actions.act_window,help:ezp_rehlacar.actions_profit_car_orders
+#: model_terms:ir.actions.act_window,help:ezp_rehlacar.actions_wallet_amount
+msgid "Click to create a new ."
+msgstr "انقر لإنشاء ملف."
+
+#. module: ezp_rehlacar
+#: model:ir.model,name:ezp_rehlacar.model_res_partner
+msgid "Contact"
+msgstr "اتصل"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_purchase_order__coupon_value
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_sale_order__coupon_value
+msgid "CouponValue"
+msgstr "قيمة القسيمة"
+
+#. module: ezp_rehlacar
+#: model_terms:ir.actions.act_window,help:ezp_rehlacar.wallet_amount_report_menu_action
+msgid "Create New Contract Form Here."
+msgstr "إنشاء نموذج عقد جديد هنا."
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_profit_car_orders__create_uid
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount__create_uid
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount_report__create_uid
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount_report_lines__create_uid
+msgid "Created by"
+msgstr "انشأ من قبل"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_profit_car_orders__create_date
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount__create_date
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount_report__create_date
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount_report_lines__create_date
+msgid "Created on"
+msgstr "تم إنشاؤها على"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_profit_car_orders__date
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount__date
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount_report_lines__date
+msgid "Date"
+msgstr "تاريخ"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_account_move__display_name
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_account_move_line__display_name
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_profit_car_orders__display_name
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_purchase_order__display_name
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_purchase_order_line__display_name
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_res_partner__display_name
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_sale_order__display_name
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_sale_order_line__display_name
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount__display_name
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount_report__display_name
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount_report_lines__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_sale_order__distance
+msgid "Distance"
+msgstr "مسافة"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields.selection,name:ezp_rehlacar.selection__wallet_amount_report__state__draft
+msgid "Draft"
+msgstr "المسودات"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_profit_car_orders__driver
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount_report__driver_id
+#: model_terms:ir.ui.view,arch_db:ezp_rehlacar.profit_car_orders_search
+msgid "Driver"
+msgstr "سائق"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_profit_car_orders__driver_cost
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount__driver_cost
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount_report_lines__driver_cost
+msgid "Driver Cost"
+msgstr "تكلفة السائق"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_profit_car_orders__reh_driver_id
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_purchase_order__reh_driver_id
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_res_partner__reh_driver_id
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_res_users__reh_driver_id
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount__reh_driver_id
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount_report_lines__reh_driver_id
+msgid "Driver Id"
+msgstr "معرف السائق"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount__driver_id
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount_report_lines__driver_id
+#: model_terms:ir.ui.view,arch_db:ezp_rehlacar.profit_car_orders_search
+msgid "Driver Name"
+msgstr "اسم السائق"
+
+#. module: ezp_rehlacar
+#: model_terms:ir.ui.view,arch_db:ezp_rehlacar.purchase_order_view_search_rehla
+msgid "Driver Unique"
+msgstr "سائق فريد"
+
+#. module: ezp_rehlacar
+#: model:ir.actions.act_window,name:ezp_rehlacar.actions_wallet_amount
+#: model:ir.ui.menu,name:ezp_rehlacar.menu_driver_wall
+msgid "Driver Wallet"
+msgstr "محفظة السائق"
+
+#. module: ezp_rehlacar
+#: model_terms:ir.ui.view,arch_db:ezp_rehlacar.wallet_amount_report_form
+msgid "Expense Report"
+msgstr "تقرير المصاريف"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields.selection,name:ezp_rehlacar.selection__sale_order__car_categ__4
+msgid "Family"
+msgstr "أسرة"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields.selection,name:ezp_rehlacar.selection__sale_order__car_categ__7
+msgid "Family Plus"
+msgstr "فاميلي بلس"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields.selection,name:ezp_rehlacar.selection__sale_order__status_of_trip__5
+msgid "Finished"
+msgstr "انتهى العمل"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount_report__from_date
+msgid "From Date"
+msgstr "من التاريخ"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields.selection,name:ezp_rehlacar.selection__sale_order__car_categ__1
+msgid "Go"
+msgstr "بداية"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields.selection,name:ezp_rehlacar.selection__sale_order__car_categ__6
+msgid "Go Plus"
+msgstr "اذهب زائد"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_account_move__id
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_account_move_line__id
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_profit_car_orders__id
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_purchase_order__id
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_purchase_order_line__id
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_res_partner__id
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_sale_order__id
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_sale_order_line__id
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount__id
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount_report__id
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount_report_lines__id
+msgid "ID"
+msgstr "هوية شخصية"
+
+#. module: ezp_rehlacar
+#: model:ir.model,name:ezp_rehlacar.model_account_move
+msgid "Journal Entry"
+msgstr "إفتتاحية المجلة"
+
+#. module: ezp_rehlacar
+#: model:ir.model,name:ezp_rehlacar.model_account_move_line
+msgid "Journal Item"
+msgstr "عنصر المجلة"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_sale_order__per_km
+msgid "Km/Charge"
+msgstr "كم / تهمة"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields.selection,name:ezp_rehlacar.selection__sale_order__car_categ__5
+msgid "Ladies"
+msgstr "سيداتي"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_account_move____last_update
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_account_move_line____last_update
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_profit_car_orders____last_update
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_purchase_order____last_update
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_purchase_order_line____last_update
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_res_partner____last_update
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_sale_order____last_update
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_sale_order_line____last_update
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount____last_update
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount_report____last_update
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount_report_lines____last_update
+msgid "Last Modified on"
+msgstr "تاريخ آخر تعديل"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_profit_car_orders__write_uid
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount__write_uid
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount_report__write_uid
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount_report_lines__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_profit_car_orders__write_date
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount__write_date
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount_report__write_date
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount_report_lines__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث على"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_purchase_order__mobile
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_sale_order__mobile
+#: model_terms:ir.ui.view,arch_db:ezp_rehlacar.purchase_order_view_search_rehla
+msgid "Mobile"
+msgstr "التليفون المحمول"
+
+#. module: ezp_rehlacar
+#: code:addons/ezp_rehlacar/models/orders.py:0
+#: code:addons/ezp_rehlacar/models/orders.py:0
+#: code:addons/ezp_rehlacar/models/orders.py:0
+#: code:addons/ezp_rehlacar/models/orders.py:0
+#: code:addons/ezp_rehlacar/models/orders.py:0
+#, python-format
+msgid "New"
+msgstr "جديد"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields.selection,name:ezp_rehlacar.selection__wallet_amount_report__state__paid
+msgid "Paid"
+msgstr "مدفوع"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_profit_car_orders__passenger
+#: model_terms:ir.ui.view,arch_db:ezp_rehlacar.profit_car_orders_search
+msgid "Passenger"
+msgstr "راكب"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_profit_car_orders__passenger_id
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_res_partner__passenger_id
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_res_users__passenger_id
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount__passenger_id
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount_report_lines__passenger_id
+msgid "Passenger Id"
+msgstr "هوية الراكب"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount__passenger
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount_report_lines__passenger
+#: model_terms:ir.ui.view,arch_db:ezp_rehlacar.profit_car_orders_search
+msgid "Passenger Name"
+msgstr "اسم الراكب"
+
+#. module: ezp_rehlacar
+#: model_terms:ir.ui.view,arch_db:ezp_rehlacar.wallet_amount_report_form
+msgid "Pay Wallet Amount"
+msgstr "دفع مبلغ المحفظة"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount_report__paying_amount
+msgid "Paying Amount"
+msgstr "مبلغ الدفع"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_sale_order__payment_type
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount__payment_type
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount_report__payment_type
+msgid "PaymentType"
+msgstr "نوع الدفع"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields.selection,name:ezp_rehlacar.selection__sale_order__status_of_trip__1
+msgid "Pending"
+msgstr "قيد الانتظار"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_profit_car_orders__profit
+msgid "Profit"
+msgstr "أرباح"
+
+#. module: ezp_rehlacar
+#: model_terms:ir.ui.view,arch_db:ezp_rehlacar.profit_car_orders_search
+msgid "Profits"
+msgstr "أرباح"
+
+#. module: ezp_rehlacar
+#: model:ir.model,name:ezp_rehlacar.model_purchase_order
+msgid "Purchase Order"
+msgstr "أمر شراء"
+
+#. module: ezp_rehlacar
+#: model:ir.model,name:ezp_rehlacar.model_purchase_order_line
+msgid "Purchase Order Line"
+msgstr "خط طلب الشراء"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields.selection,name:ezp_rehlacar.selection__sale_order__status_of_trip__6
+msgid "RatedByPassenger"
+msgstr "تم التقييم بواسطة المسافر"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount_report__name
+msgid "Reference"
+msgstr "المرجعي"
+
+#. module: ezp_rehlacar
+#: model_terms:ir.ui.view,arch_db:ezp_rehlacar.view_sale_order_rehla_inherit
+msgid "Rehla Details"
+msgstr "تفاصيل رحلة"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_profit_car_orders__rehla_id
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_purchase_order__rehla_id
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_sale_order__rehla_id
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount__rehla_id
+#: model_terms:ir.ui.view,arch_db:ezp_rehlacar.profit_car_orders_search
+msgid "Rehla Id"
+msgstr "معرف رحلة"
+
+#. module: ezp_rehlacar
+#: model:ir.actions.act_window,name:ezp_rehlacar.actions_profit_car_orders
+#: model:ir.ui.menu,name:ezp_rehlacar.menu_reh_profits
+msgid "Rehla Profit"
+msgstr "رحلة الأرباح"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_purchase_order__rehla_uniq_id
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_sale_order__rehla_uniq_id
+msgid "Rehla Unique Id"
+msgstr "معرف فريد"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields.selection,name:ezp_rehlacar.selection__sale_order__status_of_trip__3
+msgid "Rejected"
+msgstr "مرفوض"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_profit_car_orders__revenue_profit
+msgid "Revenue Profit"
+msgstr "ربح دخل"
+
+#. module: ezp_rehlacar
+#: model:ir.model,name:ezp_rehlacar.model_sale_order
+msgid "Sales Order"
+msgstr "طلب المبيعات"
+
+#. module: ezp_rehlacar
+#: model:ir.model,name:ezp_rehlacar.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "خط طلب المبيعات"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount_report__state
+msgid "Status"
+msgstr "حالة"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_profit_car_orders__tax_amount
+msgid "Tax Amount"
+msgstr "قيمة الضريبة"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_purchase_order__taxvalue_system
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_sale_order__taxvalue_system
+msgid "TaxValue&SystemRevenue"
+msgstr "القيمة الضريبية وإيرادات النظام"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields.selection,name:ezp_rehlacar.selection__sale_order__car_categ__2
+msgid "Taxi"
+msgstr "سيارة اجره"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount_report__to_date
+msgid "To Date"
+msgstr "حتى الآن"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_sale_order__govt_char
+msgid "TransportAuthorityFee"
+msgstr "رسوم هيئة النقل"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_purchase_order__transportation_aut
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_sale_order__transportation_aut
+msgid "Transportation Auth"
+msgstr "مصادقة النقل"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_account_move_line__trip_cost
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_purchase_order_line__trip_cost
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_sale_order_line__trip_cost
+msgid "Trip Cost"
+msgstr "تكلفة الرحلة"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_profit_car_orders__trip_id
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_purchase_order__trip_id
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_sale_order__trip_id
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount__trip_id
+#: model_terms:ir.ui.view,arch_db:ezp_rehlacar.profit_car_orders_search
+msgid "Trip Id"
+msgstr "معرف الرحلة"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_sale_order__status_of_trip
+msgid "Trip Status"
+msgstr "حالة الرحلة"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_profit_car_orders__trip_cost
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount__trip_cost
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount_report_lines__trip_cost
+msgid "TripCost"
+msgstr "تكلفة الرحلة"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields.selection,name:ezp_rehlacar.selection__sale_order__car_categ__3
+msgid "VIP"
+msgstr "كبار الشخصيات"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_purchase_order__value_added
+msgid "Vat-added tax"
+msgstr "ضريبة القيمة المضافة المضافة"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields.selection,name:ezp_rehlacar.selection__sale_order__payment_type__false
+#: model:ir.model.fields.selection,name:ezp_rehlacar.selection__wallet_amount__payment_type__false
+#: model:ir.model.fields.selection,name:ezp_rehlacar.selection__wallet_amount_report__payment_type__false
+#: model_terms:ir.ui.view,arch_db:ezp_rehlacar.wallet_amount_report_form
+msgid "Wallet"
+msgstr "محفظة"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount__wallet_amount
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount_report_lines__wallet_amount
+msgid "Wallet Amount"
+msgstr "مبلغ المحفظة"
+
+#. module: ezp_rehlacar
+#: model:ir.actions.act_window,name:ezp_rehlacar.wallet_amount_report_menu_action
+#: model:ir.ui.menu,name:ezp_rehlacar.manu_wallet_datw
+msgid "Wallet Amount Report"
+msgstr "محفظة تقرير المبلغ"
+
+#. module: ezp_rehlacar
+#: model_terms:ir.ui.view,arch_db:ezp_rehlacar.wallet_amount_report_form
+msgid "Wallet Amounts"
+msgstr "مبالغ المحفظة"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields,field_description:ezp_rehlacar.field_wallet_amount_report_lines__wallet_repo_id
+msgid "Wallet Repo"
+msgstr "الريبو المحفظة"
+
+#. module: ezp_rehlacar
+#: model:ir.model.fields.selection,name:ezp_rehlacar.selection__sale_order__payment_type__true
+#: model:ir.model.fields.selection,name:ezp_rehlacar.selection__wallet_amount__payment_type__true
+#: model:ir.model.fields.selection,name:ezp_rehlacar.selection__wallet_amount_report__payment_type__true
+msgid "cash"
+msgstr "السيولة النقدية"
+
+#. module: ezp_rehlacar
+#: model:ir.model,name:ezp_rehlacar.model_profit_car_orders
+msgid "profit.car.orders"
+msgstr ""
+
+#. module: ezp_rehlacar
+#: model:ir.model,name:ezp_rehlacar.model_wallet_amount
+msgid "wallet.amount"
+msgstr ""
+
+#. module: ezp_rehlacar
+#: model:ir.model,name:ezp_rehlacar.model_wallet_amount_report
+msgid "wallet.amount.report"
+msgstr ""
+
+#. module: ezp_rehlacar
+#: model:ir.model,name:ezp_rehlacar.model_wallet_amount_report_lines
+msgid "wallet.amount.report.lines"
+msgstr ""

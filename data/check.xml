@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<!--Adding a salary rule for loan-->
+	<data noupdate="0">
+<record id="automatic_rehla_record_report" model="ir.sequence">
+            <field name="name">Sale Confirm</field>
+            <field name="code">automatic.rehla.record</field>
+            <field name="prefix">Auto/Confirm/</field>
+            <field name="padding">3</field>
+            <field name="company_id" eval="False"/>
+        </record>
+
+	</data>
+</odoo>

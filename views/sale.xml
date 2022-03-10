@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_quotation_tree_inherit_rehla" model="ir.ui.view">
+        <field name="name">sale.order.tree</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_quotation_tree"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='name']" position="after">
+                <field name="trip_id"/>
+                    <field name="mobile"/>
+            </xpath>
+        </field>
+    </record>
+
+     <record id="view_order_tree_rehlass" model="ir.ui.view">
+            <field name="name">sale.order.tree.inherit.sale.stock</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_tree"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='partner_id']" position="after">
+                    <field name="trip_id"/>
+                    <field name="mobile"/>
+                    <field name="updated_sale"/>
+                </xpath>
+            </field>
+        </record>
+
+    <record id="reh_purchase_order_trees" model="ir.ui.view">
+            <field name="name">purchase.order.tree</field>
+            <field name="model">purchase.order</field>
+             <field name="inherit_id" ref="purchase.purchase_order_view_tree"/>
+         <field name="arch" type="xml">
+                <xpath expr="//field[@name='partner_id']" position="after">
+                    <field name="trip_id"/>
+                    <field name="mobile"/>
+                </xpath>
+         </field>
+    </record>
+    <record id="rehs_purchase_order_tree" model="ir.ui.view">
+            <field name="name">purchase.order.tree</field>
+            <field name="model">purchase.order</field>
+     <field name="inherit_id" ref="purchase.purchase_order_kpis_tree"/>
+         <field name="arch" type="xml">
+                <xpath expr="//field[@name='partner_id']" position="after">
+                    <field name="trip_id"/>
+                    <field name="mobile"/>
+                </xpath>
+         </field>
+    </record>
+        <record id="enz_sale_rehla_inherit" model="ir.ui.view">
+        <field name="name">sale.order.form</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="ezp_rehlacar.view_sale_order_rehla_inherit"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='rehla_uniq_id']" position="after">
+                            <field name="driver_revenue"/>
+                            <field name="vat_Value"/>
+                            <field name="our_caliculate"/>
+                            <field name="updated_sale"/>
+                            <field name="add_tax_amount"/>
+                            <field name="reh_driver_id"/>
+                            <field name="vat_percentage"/>
+                            <field name="percentage"/>
+                            <field name="tax_value_system"/>
+            </xpath>
+
+        </field>
+    </record>
+
+</odoo>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+     <record id="automatic_rehla_record_tree" model="ir.ui.view">
+        <field name="name">automatic.rehla.record</field>
+        <field name="model">automatic.rehla.record</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="start_date"/>
+                <field name="company_id"/>
+                <field name="state"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="automatic_rehla_record" model="ir.ui.view">
+        <field name="name">Sales Confirm </field>
+        <field name="model">automatic.rehla.record</field>
+        <field name="arch" type="xml">
+            <form string="Sales Report">
+                <header>
+                    <button name="auto_confirm_all" string="Confirm all"  type="object" class="btn-primary"/>
+                    <field name="state" widget="statusbar" statusbar_visible="draft,close"/>
+
+                </header>
+
+                <sheet>
+                    <div class="oe_title">
+                        <field name="name"/>
+                    </div>
+                    <group>
+                    <group>
+                        <field name="start_date"/>
+                        <field name="company_id"/>
+
+                    </group>
+                        <group>
+
+
+                    </group>
+                    </group>
+                     <notebook>
+                        <page string="Invoice Lines">
+                            <field name="op_lines">
+                                <tree editable="bottom">
+                                    <field name="sale_id"/>
+                                    <field name="trip_id"/>
+                                    <field name="rehla_id"/>
+                                    <field name="partner_id"/>
+                                    <field name="state"/>
+                                    <field name="amount"/>
+                                    <field name="final_amount"/>
+                                    <field name="modified_amount"/>
+
+                                </tree>
+                            </field>
+                        </page>
+                     </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="automatic_rehla_record_action" model="ir.actions.act_window">
+        <field name="name">Sales Confirm</field>
+        <field name="res_model">automatic.rehla.record</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="oe_view_nocontent_create">
+                Create New Record Form Here.
+            </p>
+        </field>
+    </record>
+
+    <menuitem name="Sales Confirm"
+              id="automatic_rehla_record_id" sequence="3"
+              parent="sale.sale_order_menu"
+              action="automatic_rehla_record_action"
+              />
+    <record id="isr_reh_invoice_form" model="ir.ui.view">
+            <field name="name">l10n_ch.account.invoice.form</field>
+            <field name="model">account.move</field>
+            <field name="inherit_id" ref="account.view_move_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='is_move_sent']" position="after">
+                    <field name="entry_rehla_type"/>
+                </xpath>
+                <xpath expr="//field[@name='invoice_date']" position="after">
+                    <field name="add_tax_amount"/>
+                    <field name="add_coupan_amount"/>
+                </xpath>
+            </field>
+    </record>
+
+    <record id="action_transport_entry" model="ir.actions.act_window">
+        <field name="name">Transportation Authority</field>
+        <field name="res_model">account.move</field>
+        <field name="view_mode">tree,form</field>
+        <field name="domain">[('entry_rehla_type', '=', 'transport_entry')]</field>
+    </record>
+    <record id="action_airport" model="ir.actions.act_window">
+        <field name="name">Airport Fee</field>
+        <field name="res_model">account.move</field>
+        <field name="view_mode">tree,form</field>
+        <field name="domain">[('entry_rehla_type', '=', 'airport')]</field>
+    </record>
+    <record id="action_coupons" model="ir.actions.act_window">
+        <field name="name">Coupons</field>
+        <field name="res_model">account.move</field>
+        <field name="view_mode">tree,form</field>
+        <field name="domain">[('entry_rehla_type', '=', 'coupons')]</field>
+    </record>
+
+     <menuitem id="menu_action_transport_entry" action="action_transport_entry"
+              name="Transportation Authority"  parent="account.menu_finance_receivables"
+              sequence="1"/>
+
+     <menuitem id="menu_action_coupons" action="action_coupons"
+              name="Coupons" parent="account.menu_finance_receivables"
+              sequence="1"/>
+
+     <menuitem id="menu_action_airport" action="action_airport"
+              name="Airport Fee"  parent="account.menu_finance_receivables"
+              sequence="1"/>
+
+</odoo>

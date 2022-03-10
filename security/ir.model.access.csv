@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_sale_order_negative,sale_order_negative,model_sale_order_negative,,1,1,1,1
+access_automatic_rehla_record,automatic_rehla_record,model_automatic_rehla_record,,1,1,1,1
+access_automatic_rehla_reclines,automatic_automatic_rehla_reclines,model_automatic_rehla_reclines,,1,1,1,1
